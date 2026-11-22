@@ -1,0 +1,27 @@
+EXP NO 6 os os file trsf
+
+Ubuntu:
+
+hostname -I
+
+sudo apt update
+
+sudo apt install openssh-server
+
+sudo systemctl start ssh
+
+sudo systemctl status ssh
+
+Windows Command Prompt:
+
+ssh ubuntu@10.10.16.42
+
+notepad text.txt
+
+hello
+
+scp "C:\Users\Student\Desktop\test.txt" ubuntu@10.10.16.42:/home/ubuntu/
+
+ubuntu:
+
+ls

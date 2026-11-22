@@ -1,0 +1,28 @@
+GIT AND JAVA INSTALLATION
+
+sudo apt update
+sudo apt upgrade -y
+
+sudo apt install git -y
+
+git --version
+
+git config --global user.name "Your Name"
+
+git config --global user.email "your_email@gmail.com"
+
+git config --list
+
+git clone URL
+
+sudo apt install openjdk-21-jdk -y
+
+java -version
+javac -version
+
+sudo nano /etc/environment
+
+JAVA_HOME="/usr/lib/jvm/java-21-openjdk-amd64"
+
+source /etc/environment
+echo $JAVA_HOME
